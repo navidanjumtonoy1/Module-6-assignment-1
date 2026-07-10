@@ -1,0 +1,175 @@
+/* =====================
+ Basic Reset
+=====================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: "Inter", sans-serif;
+
+    font-size: 16px;
+
+    line-height: 1.5;
+
+    color: #111111;
+
+    background-color: #ffffff;
+
+}
+
+
+img {
+
+    display: block;
+
+    max-width: 100%;
+
+}
+
+
+a {
+
+    text-decoration: none;
+
+    color: #111111;
+
+}
+
+
+ul {
+
+    list-style: none;
+
+}
+
+
+/* =====================
+   Common Styles
+===================== */
+
+
+.container {
+
+    width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+
+/* =====================
+   Buttons
+===================== */
+
+
+.primary-btn {
+
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    background-color: #2457E6;
+
+    color: #ffffff;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    border-radius: 6px;
+
+}
+
+/* =====================
+   Navbar
+===================== */
+
+
+.navbar {
+
+    background-color: #ffffff;
+
+}
+
+
+.navbar-container {
+
+    height: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+
+.brand-logo img {
+
+    width: 80px;
+
+}
+
+
+
+.nav-menu {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 28px;
+
+}
+
+
+
+.nav-link {
+
+    color: #444444;
+
+    font-size: 13px;
+
+    font-weight: 400;
+
+}
+
+
+
+.register-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    padding: 10px 24px;
+
+
+    background-color: #2457E6;
+
+
+    color: #ffffff;
+
+
+    border-radius: 6px;
+
+
+    font-size: 13px;
+
+
+    font-weight: 600;
+
+}
+
