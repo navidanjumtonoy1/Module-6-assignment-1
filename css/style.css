@@ -173,3 +173,115 @@ ul {
 
 }
 
+/* =========================
+    Hero Section
+================*/
+
+
+.hero-section {
+
+    min-height: 500px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("../assets/banner.jpg");
+
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    text-align: center;
+
+}
+
+
+
+.hero-container {
+
+    width: 700px;
+
+}
+
+
+
+.hero-title {
+
+    color: #ffffff;
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.italic-text {
+
+    font-style: italic;
+
+}
+
+
+
+.hero-paragraph {
+
+    color: #E6E6E7;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 1.5;
+
+    margin-bottom: 150px;
+
+}
+
+
+
+.hero-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    padding: 12px 28px;
+
+
+    background-color: #2457E6;
+
+
+    color: #ffffff;
+
+
+    border-radius: 6px;
+
+
+    font-size: 14px;
+
+
+    font-weight: 600;
+
+}
