@@ -285,3 +285,116 @@ ul {
     font-weight: 600;
 
 }
+
+/* =====================
+   Speakers Section
+===================== */
+
+
+.speakers-section {
+
+    padding: 70px 0;
+
+}
+
+
+
+.speakers-title {
+
+    text-align: center;
+
+    color: #000102;
+
+    font-size: 36px;
+
+    font-weight: 700;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+.speakers-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+}
+
+
+
+.speaker-card {
+
+    background-color: #ffffff;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+
+
+.speaker-image {
+
+    width: 100%;
+
+    height: 280px;
+
+    object-fit: cover;
+
+}
+
+
+
+.speaker-info {
+
+    padding: 24px;
+
+}
+
+
+
+.speaker-category {
+
+    color: #2457E6;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.speaker-name {
+
+    color: #111111;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+.speaker-company {
+
+    color: #666666;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+}
