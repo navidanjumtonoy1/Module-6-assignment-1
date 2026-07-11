@@ -904,3 +904,64 @@ ul {
     cursor: pointer;
 
 }
+
+/* =====================---=-=====----======----====
+   Footer Section
+=====================----=========-------==== */
+
+
+.footer-section {
+
+    background-color: #071A2D;
+
+    padding: 35px 0;
+
+}
+
+
+
+.footer-content {
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+
+
+.footer-copy {
+
+    color:#8894A5;
+
+    font-size:16px;
+
+    font-weight:400;
+
+}
+
+
+
+.footer-links-container {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:35px;
+
+}
+
+
+
+.footer-link {
+
+    color:#8894A5;
+
+    font-size:16px;
+
+    font-weight:400;
+
+}
